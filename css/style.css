@@ -5,6 +5,45 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* slick */
+.slick-dotted ul{
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.slick-dotted li{
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+    outline: 0;
+}
+
+.slick-dotted li button{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    color: #d8d8d8;
+    border-width: 0;
+    opacity: 1;
+    cursor: pointer;
+}
+
+li.slick-active button{
+    background: #688293;
+    color: #688293;
+}
+
+.slick-slider:focus{
+    outline: none;
+}
+
+
+/* slick */
+
 .clear{
     clear: both;
 }
@@ -74,7 +113,7 @@ header nav.menu-desktop ul li{
 }
 
 header ul a{
-    color: #b4b4b4;
+    color: #576975;
     text-decoration: none;
 }
 /****/
@@ -85,10 +124,74 @@ header ul a{
 }
 
 .img-mosaico-single{
+    /* display: flex; */
     width: 100%;
     padding-top: 100%;
     background-color: #ccc;
     border: 5px solid white;
+    height: 250px;
+}
+
+.d1{
+    background-image: url(/img/detes1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.d2{
+    background-image: url(/img/detes2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.d3{
+    background-image: url(/img/detes3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.d4{
+    background-image: url(/img/detes4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.d5{
+    background-image: url(/img/detes5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.d6{
+    background-image: url(/img/detes6.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.d7{
+    background-image: url(/img/detes7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.d8{
+    background-image: url(/img/detes8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.d9{
+    background-image: url(/img/detes9.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.d10{
+    background-image: url(/img/detes10.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.d11{
+    background-image: url(/img/detes11.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.d12{
+    background-image: url(/img/detes12.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 section.servicos > .conteiner{
@@ -164,13 +267,13 @@ section.perfil-conteiner .perfil-wraper2{
 
 section.perfil-conteiner .img-perfil{
     width: 40%;
-    height: 100%;
-    background-image: url('../img/img_perfil.png');
-    background-size: 100% 100%;
+    height: 90%;
+    background-image: url('/img/detes13.png');
+    background-size: cover;
 }
 
 section.perfil-conteiner .texto-perfil{
-    width: 60%;
+    width: 50%;
     padding: 20px 30px;
 }
 
@@ -276,6 +379,7 @@ section.tratamentos .tratamento-conteiner{
 .depoimento-single img{
     width: 32px;
     height: 32px;
+    display: inline-block;
     border-radius: 16px;
 }
 
@@ -305,8 +409,53 @@ section.tratamentos .tratamento-conteiner{
     background-repeat:no-repeat ;
     background-size: 100% 100%;
     padding-top: calc(100% /9);
-    background-color: blue;
     border: 6px solid white;
+}
+
+.dr1{
+    background-image: url(/img/dr1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.dr2{
+    background-image: url(/img/dr2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.dr3{
+    background-image: url(/img/dr3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.dr4{
+    background-image: url(/img/dr4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.dr5{
+    background-image: url(/img/dr5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.dr6{
+    background-image: url(/img/dr6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.dr7{
+    background-image: url(/img/dr7.png);
+    background-position: center;
+    background-size: cover;
+}
+.dr8{
+    background-image: url(/img/dr8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.dr9{
+    background-image: url(/img/dr9.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .facebook-chamada{
